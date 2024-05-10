@@ -18,7 +18,7 @@ public class Contador {
     }
 
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
-        if (parametroUm > parametroDois) {
+        if (parametroUm >= parametroDois) {
             throw new ParametrosInvalidosException();
         }
 
